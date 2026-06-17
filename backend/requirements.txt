@@ -1,0 +1,31 @@
+# ─── Framework principal ──────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# ─── Base de datos ────────────────────────────────────────────────────────────
+sqlalchemy==2.0.36
+pyodbc==5.2.0
+
+# ─── Validaciones y configuración ────────────────────────────────────────────
+# pydantic 2.10+ tiene wheels precompilados para Python 3.14
+pydantic==2.10.6
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# ─── OCR ─────────────────────────────────────────────────────────────────────
+pytesseract==0.3.13
+# Pillow 11.1+ tiene wheels para Python 3.14 en Windows
+Pillow==11.1.0
+pdf2image==1.17.0
+
+# ─── Inteligencia Artificial ──────────────────────────────────────────────────
+openai==1.55.3
+
+# ─── Azure (OCR fallback) ────────────────────────────────────────────────────
+azure-cognitiveservices-vision-computervision==0.9.0
+msrest==0.7.1
+
+# ─── Utilidades ──────────────────────────────────────────────────────────────
+python-multipart==0.0.20
+python-dotenv==1.0.1
+httpx==0.27.2
